@@ -1,9 +1,9 @@
-# Tuning PostgreSQL & PostGIS Parameters
+# MapStore Setup & Settings
 
 *Concept documentation placeholder.*
 
 ## 📝 Notes
-*Add details about Tuning PostgreSQL & PostGIS Parameters here.*
+*Add details about MapStore Setup & Settings here.*
 
 ## 🎥 Recommended Videos
 *Add video links here.*

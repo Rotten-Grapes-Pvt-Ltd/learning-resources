@@ -1,9 +1,9 @@
-# Tuning PostgreSQL & PostGIS Parameters
+# pgTileserv Dynamic Vector Tile Server
 
 *Concept documentation placeholder.*
 
 ## 📝 Notes
-*Add details about Tuning PostgreSQL & PostGIS Parameters here.*
+*Add details about pgTileserv Dynamic Vector Tile Server here.*
 
 ## 🎥 Recommended Videos
 *Add video links here.*

@@ -1,9 +1,9 @@
-# Tuning PostgreSQL & PostGIS Parameters
+# GeoNode Installation & Stack
 
 *Concept documentation placeholder.*
 
 ## 📝 Notes
-*Add details about Tuning PostgreSQL & PostGIS Parameters here.*
+*Add details about GeoNode Installation & Stack here.*
 
 ## 🎥 Recommended Videos
 *Add video links here.*

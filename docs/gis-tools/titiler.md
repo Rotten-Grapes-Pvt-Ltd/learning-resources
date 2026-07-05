@@ -1,9 +1,9 @@
-# Tuning PostgreSQL & PostGIS Parameters
+# TiTiler Dynamic Raster Server
 
 *Concept documentation placeholder.*
 
 ## 📝 Notes
-*Add details about Tuning PostgreSQL & PostGIS Parameters here.*
+*Add details about TiTiler Dynamic Raster Server here.*
 
 ## 🎥 Recommended Videos
 *Add video links here.*

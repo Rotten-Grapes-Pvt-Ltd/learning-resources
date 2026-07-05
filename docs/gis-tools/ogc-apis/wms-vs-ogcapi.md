@@ -1,9 +1,9 @@
-# Tuning PostgreSQL & PostGIS Parameters
+# WMS vs OGC API Comparison
 
 *Concept documentation placeholder.*
 
 ## 📝 Notes
-*Add details about Tuning PostgreSQL & PostGIS Parameters here.*
+*Add details about WMS vs OGC API Comparison here.*
 
 ## 🎥 Recommended Videos
 *Add video links here.*

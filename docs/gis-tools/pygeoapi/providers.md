@@ -1,9 +1,9 @@
-# Tuning PostgreSQL & PostGIS Parameters
+# Configuring Pygeoapi Dataset Providers
 
 *Concept documentation placeholder.*
 
 ## 📝 Notes
-*Add details about Tuning PostgreSQL & PostGIS Parameters here.*
+*Add details about Configuring Pygeoapi Dataset Providers here.*
 
 ## 🎥 Recommended Videos
 *Add video links here.*

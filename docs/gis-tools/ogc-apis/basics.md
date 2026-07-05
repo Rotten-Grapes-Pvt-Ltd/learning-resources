@@ -1,9 +1,9 @@
-# Tuning PostgreSQL & PostGIS Parameters
+# OGC Standards & Formats
 
 *Concept documentation placeholder.*
 
 ## 📝 Notes
-*Add details about Tuning PostgreSQL & PostGIS Parameters here.*
+*Add details about OGC Standards & Formats here.*
 
 ## 🎥 Recommended Videos
 *Add video links here.*

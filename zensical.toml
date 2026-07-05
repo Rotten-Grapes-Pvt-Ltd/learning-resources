@@ -2,6 +2,8 @@
 site_name = "ZenGIS"
 site_description = "Curated, granular concept maps for developers transitioning into GIS."
 site_author = "Zensical GIS Team"
+repo_url = "https://github.com/Rotten-Grapes-Pvt-Ltd/learning-resources"
+repo_name = "Rotten-Grapes-Pvt-Ltd/learning-resources"
 
 nav = [
     { "Home" = "index.md" },
@@ -26,6 +28,45 @@ nav = [
         { "Landsat Satellites" = "rs/landsat.md" },
         { "LiDAR Data" = "rs/lidar.md" },
         { "Synthetic Aperture Radar (SAR)" = "rs/sar.md" }
+    ]},
+    { "GIS Tools" = [
+        { "Overview" = "gis-tools/index.md" },
+        { "GeoServer" = [
+            { "Workspaces" = "gis-tools/geoserver/workspaces.md" },
+            { "Data Stores" = "gis-tools/geoserver/stores.md" },
+            { "Publishing Layers" = "gis-tools/geoserver/publishing-layers.md" },
+            { "SLD Styling" = "gis-tools/geoserver/sld-styling.md" },
+            { "WMS & WFS" = "gis-tools/geoserver/wms-wfs.md" },
+            { "REST API" = "gis-tools/geoserver/rest-api.md" }
+        ]},
+        { "QGIS" = [
+            { "Interface & Panels" = "gis-tools/qgis/interface.md" },
+            { "Loading Layers" = "gis-tools/qgis/loading-data.md" },
+            { "Layer Symbology" = "gis-tools/qgis/styling-layers.md" },
+            { "Print Layouts" = "gis-tools/qgis/print-layouts.md" },
+            { "Vector Geoprocessing" = "gis-tools/qgis/vector-tools.md" },
+            { "Raster Calculations" = "gis-tools/qgis/raster-tools.md" },
+            { "Graphical Modeler" = "gis-tools/qgis/graphical-modeler.md" }
+        ]},
+        { "TiTiler" = "gis-tools/titiler.md" },
+        { "pgTileserv" = "gis-tools/pgtileserv.md" },
+        { "pgFeatureserv" = "gis-tools/pgfeatureserv.md" },
+        { "OGC APIs" = [
+            { "OGC Standards" = "gis-tools/ogc-apis/basics.md" },
+            { "WMS vs OGC API" = "gis-tools/ogc-apis/wms-vs-ogcapi.md" }
+        ]},
+        { "Pygeoapi" = [
+            { "Setup" = "gis-tools/pygeoapi/setup.md" },
+            { "Dataset Providers" = "gis-tools/pygeoapi/providers.md" }
+        ]},
+        { "GeoNode" = [
+            { "Setup" = "gis-tools/geonode/setup.md" },
+            { "Portal Admin" = "gis-tools/geonode/administration.md" }
+        ]},
+        { "MapStore" = [
+            { "Setup" = "gis-tools/mapstore/setup.md" },
+            { "Customization" = "gis-tools/mapstore/customization.md" }
+        ]}
     ]},
     { "Frontend Mapping" = [
         { "UI/UX Principles" = [
@@ -131,14 +172,6 @@ nav = [
             { "Proj4 Translation" = "backend/nodejs/proj4.md" },
             { "GeoJSON Parsing" = "backend/nodejs/geojson.md" }
         ]},
-        { "GeoServer" = [
-            { "Workspaces" = "backend/geoserver/workspaces.md" },
-            { "Data Stores" = "backend/geoserver/stores.md" },
-            { "Publishing Layers" = "backend/geoserver/publishing-layers.md" },
-            { "SLD Styling XML" = "backend/geoserver/sld-styling.md" },
-            { "WMS & WFS Services" = "backend/geoserver/wms-wfs.md" },
-            { "GeoServer REST API" = "backend/geoserver/rest-api.md" }
-        ]},
         { "Map Tiling" = [
             { "XYZ Tiles" = "backend/tiles/xyz-tiles.md" },
             { "MVT Vector Tiles" = "backend/tiles/vector-tiles-mvt.md" },
@@ -160,17 +193,6 @@ nav = [
             { "JVM Heap Tuning" = "devops/tuning/geoserver-jvm.md" },
             { "PostgreSQL Tuning" = "devops/tuning/postgresql-tuning.md" }
         ]}
-    ]},
-    { "GIS Desktop & Analysis" = [
-        { "QGIS" = [
-            { "Interface & Panels" = "analyst/qgis/interface.md" },
-            { "Loading Layers" = "analyst/qgis/loading-data.md" },
-            { "Layer Symbology" = "analyst/qgis/styling-layers.md" },
-            { "Print Layouts" = "analyst/qgis/print-layouts.md" },
-            { "Vector Geoprocessing" = "analyst/qgis/vector-tools.md" },
-            { "Raster Calculations" = "analyst/qgis/raster-tools.md" },
-            { "Graphical Modeler" = "analyst/qgis/graphical-modeler.md" }
-        ]}
     ]}
 ]
 
@@ -179,7 +201,6 @@ style = "material"
 features = [
     "navigation.tabs",
     "navigation.tabs.sticky",
-    "navigation.sections",
     "content.code.copy",
     "search.suggest",
     "search.highlight"
